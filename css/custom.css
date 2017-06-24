@@ -1,0 +1,178 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300, 400');
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.topNav {
+    /*
+    margin-left: 10%;
+    margin-right: 10%;
+    */
+    margin-top: 4%;
+    height: 110px;
+}
+
+.navList {
+    float: none;
+    margin: 0 auto;
+}
+
+.containerHome {
+    /*
+    padding-left: 15%;
+    padding-right: 15%;
+    */
+    margin-top: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    float: none;
+    margin: 0 auto;
+}
+
+#nameHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+#menu li {
+    font-family: "Quicksand", sans-serif !important;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: inline;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#indexFooter {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+#indexFoot ul {
+    list-style: none;
+    margin: 0 auto;
+    position: relative;
+}
+
+#indexFooter li {
+    display: inline;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    height: 150px;
+}
+
+h3 {
+    opacity: .8;
+}
+
+b {
+    opacity: 1 !important;
+}
+
+hr {
+    width: 94%;
+}
+
+#menu a {
+    opacity: .8;
+    color: #4d4d4d;
+}
+
+#indexFooter a {
+    opacity: .8;
+    color: #4d4d4d;
+}
+
+a:link,
+a:visited {
+    color: #64BCF0;
+}
+
+a:hover {
+    color: #03629A;
+    text-decoration: underline;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 10s;
+    opacity: 1 !important;
+    color: black !important;
+}
+
+#indexFooter a:hover {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 10s;
+    opacity: 1 !important;
+    color: black !important;
+}
+
+body {
+    background-color: #F9FBFB;
+}
+
+#mobileMenu {
+    text-align: center;
+}
+
+#menuExpand {
+    display: none;
+    background-color: #e6e6e6;
+}
+
+#menuExpand ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 38px;
+    height: 150px;
+}
+
+#menuExpand li {
+    clear: both;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#hrDiv {
+    margin-top: -35px;
+}
+
+#navDiv {
+    display: none;
+    height: 156px;
+}

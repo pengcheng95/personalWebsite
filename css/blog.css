@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+.containerBlog {
+    float: none;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5;
+}
+
+.blogPost {
+    margin-bottom: 5%;
+}
+
+h4,
+h4,
+p {
+    font-size: 1.5em;
+}
+
+#title {
+    text-align: center;
+}

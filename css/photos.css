@@ -1,0 +1,27 @@
+    .photoLine {
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        margin-bottom: 15px;
+    }
+    
+    .photo {
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 15px;
+        /*
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+        */
+    }
+    
+    .photo:hover {
+        /*
+        opacity: 1;
+        */
+    }

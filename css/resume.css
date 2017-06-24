@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+.sideBarResume {
+    text-align: right;
+    border-right: 1px solid #000;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    padding-right: 15px;
+    clear: left;
+}
+
+.mainResume {
+    float: left;
+    text-align: left;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+.mainResume li {
+    font-size: 1.2em;
+    font-family: 'EB Garamond', serif;
+}
+
+.resumeBlock {
+    margin-bottom: 10px;
+    clear: left;
+}
+
+.skillLevel {
+    text-align: center;
+}
+
+.skillLine {
+    clear: both;
+}
+
+.footer {
+    height: 60px;
+    text-align: center;
+}
+
+.containerResume {
+    float: none;
+    margin: 0 auto;
+}
